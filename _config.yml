@@ -4,7 +4,7 @@ bio:                'Music Information Retrieval Researcher, Music Producer and 
 description:        "When a creator incentives another one to create, he should feel happy"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "aframires.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
