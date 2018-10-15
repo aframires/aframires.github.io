@@ -1,10 +1,10 @@
 # Site
 title:              António Ramires
-bio:                'Music Information Retrieval Researcher and Music Producer'
+bio:                'Music Information Retrieval Researcher, Music Producer and Radio DJ'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "aframires.github.io" # the base hostname & protocol for your site
 
 defaults:
 - scope:
