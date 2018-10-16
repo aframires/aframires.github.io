@@ -1,7 +1,7 @@
 # Site
-title:              António Ramires
-bio:                'Music Information Retrieval Researcher, Music Producer and Radio DJ'
-description:        "When a creator incentives another one to create, he should feel happy"
+title:              Massively
+bio:                'Jekyll version of the Massively theme by HTML5UP'
+description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -41,9 +41,9 @@ instagram:          default
 github:             default
 
 # personal
-location:           Music Technology Group in Universitat Pompeu Fabra Barcelona, España
-phone:              +34 935 422 000
-email:      		aframires@gmail.com
+location:           Los Angeles, CA
+phone:              310-318-5555
+email:              info@default.com
 
 # Gems
 gems:
