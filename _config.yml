@@ -1,5 +1,5 @@
 # Site
-title:              Massively
+title:              António Ramires
 bio:                'Jekyll version of the Massively theme by HTML5UP'
 description:        "Jekyll version of the Massively theme by HTML5UP"
 locale:             en_US
@@ -38,12 +38,13 @@ analytics-id:       "default"
 twitter:            default
 facebook:           default
 instagram:          default
-github:             default
+github:             aframires
+
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Music Technology Group, Universitat Pompeu Fabra
+phone:              +34 935 422 000
+email:              aframires@gmail.com
 
 # Gems
 gems:
