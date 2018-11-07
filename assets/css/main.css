@@ -4046,6 +4046,12 @@
 					-ms-align-items: center;
 					align-items: center;
 					padding: 3.15rem 4rem;
+					
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					align-items: center;
+					align-content: center;
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4053,7 +4059,7 @@
 					}
 
 					#footer > section.split.contact > section > :first-child {
-						height: 10px;
+
 						-moz-flex-shrink: 0;
 						-webkit-flex-shrink: 0;
 						-ms-flex-shrink: 0;
@@ -4066,7 +4072,6 @@
 					}
 
 					#footer > section.split.contact > section > :last-child {
-						height: 10px;
 						-moz-flex-shrink: 1;
 						-webkit-flex-shrink: 1;
 						-ms-flex-shrink: 1;
