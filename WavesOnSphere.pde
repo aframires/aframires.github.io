@@ -1,6 +1,6 @@
 // WavesOnSphere_1.0
 
-int Nmax = 500 ; float M = 50 ; float H = 0.90 ; float HH = 0.01 ;
+int Nmax = 150 ; float M = 100 ; float H = 0.95 ; float HH = 0.01 ;
 
 float X[] = new float[Nmax+1] ; float Y[] = new float[Nmax+1] ; float Z[] = new float[Nmax+1] ;
 float V[] = new float[Nmax+1] ; float dV[] = new float[Nmax+1] ; 
@@ -10,13 +10,15 @@ float KX ; float KY ; float KZ ;
 float KV ; float KdV ; int K ;
 
 
+
 void setup(){
   
   size(600,600) ;
   background(0,0,0) ;
-  noSmooth() ;
+
   stroke(255,255,255) ;
   fill(50,50,50) ;
+  frameRate(25) ;
   
   for ( N = 0 ; N <= Nmax ; N++ ){
     X[N] = random(-300,+300) ;
@@ -78,7 +80,7 @@ void mousePressed(){
   
   Lmin = 600 ; NN = 0 ;
   for ( N = 0 ; N <= Nmax ; N++ ){
-     L = sqrt(((mouseX-(300+X[N]))*(mouseX-(300+X[N])))+((mouseY-(300+Y[N]))*(mouseY-(300+Y[N])))) ;
+     L = sqrt(((300-(300+X[N]))*(300-(300+X[N])))+((300-(300+Y[N]))*(300-(300+Y[N])))) ;
      if ( Z[N] > 0 && L < Lmin ){ NN = N ; Lmin = L ; }
   }
   if ( K == 0 ){ dV[NN] = -200 ; K = 1 ; }

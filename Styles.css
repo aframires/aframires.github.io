@@ -1,0 +1,53 @@
+@import url("webfonts/Brig/stylesheet.css");
+@import url("webfonts/Paciencia/stylesheet.css");
+body {
+    font-style: normal;
+    font-weight: 400;
+    font-family: Brig;
+    z-index: 2
+}
+.Circle {
+    z-index: -1;
+    position: fixed;
+    top: 4.5vw;
+    bottom: auto;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    height: 600px
+}
+.nome {
+    font-size: 5vw;
+    z-index: 9999;
+    position: relative;
+    top: 0;
+    margin: auto;
+    text-align: center
+}
+ul {
+    list-style-type: none;
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 9999;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    float: left;
+    z-index: 9999;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    z-index: 9999;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #2F2F2F;
+    z-index: 9999;
+}
