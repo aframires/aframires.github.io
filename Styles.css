@@ -92,7 +92,24 @@ li a:hover {
 
 a {
 	text-decoration: none;
-	
 	color: white;
+}
+
+.research{
+	right: 20vw;
+	text-align: right;
+	
+}
+
+.research2{
+	float:right;
+	top:5vw;
+	text-align: left;
+	
+}
+
+.research3{
+	right: 5vw;
+	text-align: left;
 	
 }
