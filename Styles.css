@@ -4,7 +4,9 @@ body {
     font-style: normal;
     font-weight: 400;
     font-family: Brig;
-    z-index: 2
+    z-index: 2;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .Circle {
     z-index: -1;
@@ -24,6 +26,16 @@ body {
     margin: auto;
     text-align: center
 }
+
+.SideText {
+	top: 4vw;
+	position: relative;
+	width: 80vw;
+	font-family: Paciencia;
+	font-size: 3vw;
+	padding: 14px
+}
+
 ul {
     list-style-type: none;
     font-size: 3vw;
@@ -50,4 +62,6 @@ li a {
 li a:hover {
     background-color: #2F2F2F;
     z-index: 9999;
+}
+.SideText {
 }

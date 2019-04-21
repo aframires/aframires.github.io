@@ -15,6 +15,9 @@ void setup(){
   
   size(600,600) ;
   background(0,0,0) ;
+  mouseX = 250;
+  mouseY = 250;
+  
 
   stroke(255,255,255) ;
   fill(50,50,50) ;
@@ -34,7 +37,19 @@ void draw(){
   
   background(0,0,0) ;
   
-  
+  if(frameCount % 250 == 0){
+    mouseX = random(100,500);
+    mouseY = random(100,500);
+  }
+
+  if(frameCount % 1001 == 0){
+    for ( N = 0; N <= Nmax; N++ ) {
+      X[N] = random(-600, +600) ;
+      Y[N] = random(-600, +600) ;
+      Z[N] = random(-300, +300) ;
+    }
+  }
+
   for ( N = 0 ; N <= Nmax ; N++ ){
      for ( NN = N+1 ; NN <= Nmax ; NN++ ){
         L = sqrt(((X[N]-X[NN])*(X[N]-X[NN]))+((Y[N]-Y[NN])*(Y[N]-Y[NN]))) ;
