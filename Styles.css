@@ -11,7 +11,7 @@ body {
 .Circle {
     z-index: -1;
     position: fixed;
-    top: 4.5vw;
+    top: 20vh;
     bottom: auto;
     margin: auto;
     left: 0px;
@@ -112,4 +112,17 @@ a {
 	right: 5vw;
 	text-align: left;
 	
+}
+
+.CentralText {
+	top: 4vw;
+	width: 95vw;
+	font-family: Paciencia;
+	font-size: 3vw;
+	padding: 14px;
+		
+}
+
+.pubs{
+	font-size:2.3vw
 }
