@@ -5,8 +5,11 @@ body {
     font-weight: 400;
     font-family: Brig;
     z-index: 2;
-	margin-top: 0;
-	margin-bottom: 0;
+    max-width: 1080px;
+	/*margin-top: 0;
+	margin-bottom: 0;*/
+    margin: 0 auto ;
+    float: none !important;
 }
 .Circle {
     z-index: -1;
