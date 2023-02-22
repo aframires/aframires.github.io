@@ -8,7 +8,7 @@ body {
     max-width: 1080px;
 	/*margin-top: 0;
 	margin-bottom: 0;*/
-    margin: 0 auto ;
+    margin: 0 auto !important;
     float: none !important;
 }
 .Circle {
@@ -22,7 +22,7 @@ body {
     height: 600px
 }
 .nome {
-    font-size: 5vw;
+    font-size: 5*1080;
     z-index: 9999;
     position: relative;
     top: 0;
@@ -31,17 +31,17 @@ body {
 }
 
 .SideText {
-	top: 4vw;
-	width: 80vw;
+	top: 4*1080;
+	width: 80*1080;
 	font-family: Paciencia;
-	font-size: 3vw;
+	font-size: 3*1080;
 	padding: 14px;
 		
 }
 
 .contact{
 	float:left;
-	top: 20vw;
+	top: 20*1080;
 	right: 14px;
 	position: absolute;
 	text-align: right;
@@ -51,7 +51,7 @@ body {
 
 ul {
     list-style-type: none;
-    font-size: 3vw;
+    font-size: 3*1080;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -79,16 +79,16 @@ li a:hover {
 
 .music {
 	float:left;
-	top: 10vw;
-	right: 10vw;
+	top: 10*1080;
+	right: 10*1080;
 	position: absolute;
 	text-align: center;
 }
 
 .music2 {
 	float:left;
-	top: 26vw;
-	right: 25vw;
+	top: 26*1080;
+	right: 25*1080;
 	position: absolute;
 	text-align: center;
 }
@@ -99,33 +99,33 @@ a {
 }
 
 .research{
-	right: 20vw;
+	right: 20*1080;
 	text-align: right;
 	
 }
 
 .research2{
 	float:right;
-	top:5vw;
+	top:5*1080;
 	text-align: left;
 	
 }
 
 .research3{
-	right: 5vw;
+	right: 5*1080;
 	text-align: left;
 	
 }
 
 .CentralText {
-	top: 4vw;
-	width: 95vw;
+	top: 4*1080;
+	width: 95*1080;
 	font-family: Paciencia;
-	font-size: 3vw;
+	font-size: 3*1080;
 	padding: 14px;
 		
 }
 
 .pubs{
-	font-size:2.3vw
+	font-size:2.3*1080
 }
