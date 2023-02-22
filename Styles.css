@@ -51,7 +51,7 @@ body {
 
 ul {
     list-style-type: none;
-    font-size: min(3vw,3 * 1500px);
+    font-size: min(3vw,3 * 15px);
     margin: 0;
     padding: 0;
     overflow: hidden;
