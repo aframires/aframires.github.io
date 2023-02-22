@@ -36,6 +36,7 @@ body {
 	font-family: Paciencia;
 	font-size: min(3vw,3 * 10.80px);
 	padding: 14px;
+    max-width: 1080px;
 		
 }
 
@@ -45,6 +46,7 @@ body {
 	right: 14px;
 	position: absolute;
 	text-align: right;
+    max-width: 1080px;
 
 	
 }
@@ -83,6 +85,7 @@ li a:hover {
 	right: 10vw;
 	position: absolute;
 	text-align: center;
+    max-width: 1080px;
 }
 
 .music2 {
@@ -91,6 +94,7 @@ li a:hover {
 	right: 25vw;
 	position: absolute;
 	text-align: center;
+    max-width: 1080px;
 }
 
 a {
@@ -101,6 +105,7 @@ a {
 .research{
 	right: 20vw;
 	text-align: right;
+    max-width: 1080px;
 	
 }
 
@@ -108,12 +113,14 @@ a {
 	float:right;
 	top:5vw;
 	text-align: left;
+    max-width: 1080px;
 	
 }
 
 .research3{
 	right: 5vw;
 	text-align: left;
+    max-width: 1080px;
 	
 }
 
@@ -123,6 +130,7 @@ a {
 	font-family: Paciencia;
 	font-size: min(3vw,10.80 * 3px);
 	padding: 14px;
+    max-width: 1080px;
 		
 }
 
