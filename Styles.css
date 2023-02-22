@@ -34,7 +34,7 @@ body {
 	top: 4vw;
 	width: min(80vw,80 * 1080px);
 	font-family: Paciencia;
-	font-size: 3vw;
+	font-size: min(3vw,3 * 1080px);
 	padding: 14px;
 		
 }
@@ -51,7 +51,7 @@ body {
 
 ul {
     list-style-type: none;
-    font-size: 3vw;
+    font-size: min(3vw,3*1500);
     margin: 0;
     padding: 0;
     overflow: hidden;
