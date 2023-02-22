@@ -32,9 +32,9 @@ body {
 
 .SideText {
 	top: 4vw;
-	width: min(80vw,80 * 1080px);
+	width: min(80vw,80 * 10.80px);
 	font-family: Paciencia;
-	font-size: min(3vw,3 * 1080px);
+	font-size: min(3vw,3 * 10.80px);
 	padding: 14px;
 		
 }
@@ -121,11 +121,11 @@ a {
 	top: 4vw;
 	width: 95vw;
 	font-family: Paciencia;
-	font-size: min(3vw,1080 * 3px);
+	font-size: min(3vw,10.80 * 3px);
 	padding: 14px;
 		
 }
 
 .pubs{
-	font-size:min(2.3vw,2.3 * 1080px)
+	font-size:min(2.3vw,2.3 * 10.80px)
 }
